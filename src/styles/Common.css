@@ -1,0 +1,91 @@
+/*section-font*/
+@font-face {
+	font-family: 'GmarketSansLight';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+/*basic-font*/
+@font-face {
+	font-family: 'S-CoreDream-4Regular';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+  font-family: 'GmarketSansLight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+	background: #fdfaf2;
+}
+.App {
+	width: 60%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 0 auto;
+	box-sizing: border-box;
+	overflow: hidden;
+	background: #5d5d79;
+}
+
+.App header {
+	width: 70%;
+	height: 20vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.App header h1 .logo {
+	width: 85%;
+}
+
+.App section {
+	width: 100%;
+	height: auto;
+	min-height: 70vh;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	background: #fbd3cb;
+	padding-top: 50px;
+  font-family: 'GmarketSansMedium';
+}
+
+.App footer {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #bdbdbd;
+	padding: 15px 0;
+	font-size:.8em ; 
+	font-family: 'GmarketSansMedium';
+	color:#777;
+}
+
+@media screen and (max-width:1023px){ 
+	.App {
+		width: 100%;
+}
+.App header{
+	width:90%;
+	margin:0 auto;
+
+}
+
+}
